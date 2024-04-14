@@ -83,11 +83,12 @@ def advisor_response(file_path, preferred_genre):
 
                   3. Then, COMPARE the user's preferred genre with your categorized list to IDENTIFY potential book matches.
 
-                  4. After that, SELECT a variety of titles from the matched list that you believe will best suit the user's genre taste.
-
+                  4. After that, SELECT a variety of titles from the matched list that you believe will best suit the user's genre taste. 
+                     If the preferred genre cannot be matched with the book list, state that the books are currently not available and kindly suggest the user to select an another genre or explore different genres.
+                     
                   5. Now, PRESENT these recommendations to the user in an organized manner, perhaps by ranking them or grouping similar titles together.
                    
-                  Follow these steps thoroughly and after that display the recommendation.
+                  Follow these steps thoroughly and make sure after that display the recommendations.
                    """
     response = rag.chat(prompt)
     return response.response
