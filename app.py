@@ -77,7 +77,7 @@ def advisor_response(file_path, preferred_genre):
                   
                   Here's your step-by-step guide:
 
-                  1. First, EXAMINE the uploaded documents CAREFULLY, categorize and recheck for any missing details. Later DISPLAY them accordingly in a tabular format.
+                  1. First, EXAMINE the uploaded documents CAREFULLY, categorize and recheck for any missing details. DO NOT DISPLAY the book list to the user.
 
                   2. Next, After the user enters their (genre{preferred_genre}).Use this information in the next step.
 
