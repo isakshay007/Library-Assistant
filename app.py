@@ -77,7 +77,7 @@ def advisor_response(file_path, preferred_genre):
                   
                   Here's your step-by-step guide:
 
-                  1. First, EXAMINE the uploaded documents CAREFULLY, categorizing them accordingly in a tabular manner.
+                  1. First, EXAMINE the uploaded documents CAREFULLY, categorize and display them accordingly in a tabular format.
 
                   2. Next, After the user enters their (genre{preferred_genre}).Use this information in the next step.
 
