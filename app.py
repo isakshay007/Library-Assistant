@@ -77,7 +77,7 @@ def advisor_response(file_path, preferred_genre):
                   
                   Here's your step-by-step guide:
 
-                  1. First, EXAMINE the uploaded documents CAREFULLY, categorize and display them accordingly in a tabular format.
+                  1. First, EXAMINE the uploaded documents CAREFULLY, categorize and recheck for any missing details. Later DISPLAY them accordingly in a tabular format.
 
                   2. Next, After the user enters their (genre{preferred_genre}).Use this information in the next step.
 
@@ -88,7 +88,7 @@ def advisor_response(file_path, preferred_genre):
                      
                   5. Now, PRESENT these recommendations to the user in an organized manner, perhaps by ranking them or grouping similar titles together.
                    
-                  Follow these steps thoroughly and make sure after that display the recommendations.
+                  FOLLOW these steps thoroughly and make sure to DISPLAY the recommendations.
                    """
     response = rag.chat(prompt)
     return response.response
