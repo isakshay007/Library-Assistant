@@ -22,7 +22,7 @@ st.image(image, width=150)
 # App title and introduction
 st.title("Library Assistant")
 st.markdown("### Built using Lyzr SDK🚀")
-st.markdown("")
+st.markdown("Discover personalized book recommendations tailored to your preferred genre with the help of this Library Assistant app, powered by Lyzr's ChatBot.")
 
 # Function to remove existing files in the directory
 def remove_existing_files(directory):
